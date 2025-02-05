@@ -6,6 +6,11 @@ h1,p{
     color: white;
 }
 
+.rockp-bodycontainer{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .rpcbtn-container{
     display: flex;

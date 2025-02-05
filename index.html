@@ -5,25 +5,28 @@
         <link rel="stylesheet" href="rock-p-s.css">
     </head>
     <body>
-        <div class="rockps-maincontainer">
-            <h1>Rock Paper Scissor</h1>
-            <div class="rpcbtn-container">
-                <button class="rockbtn" onclick="calculate('rock','rock'); ">
-                    <img class="rockimg" src="Images/rock-emoji.png">
-                </button>
-                <button class="paperbtn" onclick="calculate('paper','paper');">
-                    <img class="paperimg" src="Images/paper-emoji.png">
-                </button>
-                <button class="scissorbtn" onclick="calculate('scissor','scissors');">
-                    <img class="scissorimg" src="Images/scissors-emoji.png">
-                </button>
-                
+        <div class="rockp-bodycontainer">
+            <div class="rockps-maincontainer">
+                <h1>Rock Paper Scissor</h1>
+                <div class="rpcbtn-container">
+                    <button class="rockbtn" onclick="calculate('rock','rock'); ">
+                        <img class="rockimg" src="Images/rock-emoji.png">
+                    </button>
+                    <button class="paperbtn" onclick="calculate('paper','paper');">
+                        <img class="paperimg" src="Images/paper-emoji.png">
+                    </button>
+                    <button class="scissorbtn" onclick="calculate('scissor','scissors');">
+                        <img class="scissorimg" src="Images/scissors-emoji.png">
+                    </button>
+                    
+                </div>
+                <p class="resultdisplay jsResult"></p>
+                <p class="movedisplay jsMoves"></p>
+                <p class="scoredisplay jsScores"></p>
+                <button class="resetbtn" onclick="resetScores();">Reset Score</button>
             </div>
-            <p class="resultdisplay jsResult"></p>
-            <p class="movedisplay jsMoves"></p>
-            <p class="scoredisplay jsScores"></p>
-            <button class="resetbtn" onclick="resetScores();">Reset Score</button>
         </div>
+       
 
 
 
